@@ -1,0 +1,61 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.13",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/joy": "latest",
+    "@mui/material": "^5.15.16",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "^1.6.8",
+    "formik": "^2.4.6",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "yup": "^1.4.0"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.15.15/docs/data/joy/templates/order-dashboard/App.tsx",
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "latest",
+    "typescript-eslint": "^7.7.1"
+  },
+  "main": "index.tsx",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "rules": {
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "to"
+        ]
+      }
+    ]
+  }
+}
